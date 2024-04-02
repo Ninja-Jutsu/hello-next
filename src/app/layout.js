@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import './styles.css';
+import "./styles.css";
 
 function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body>
         {children}
-
+        <footer>CopyRight Anything</footer>
       </body>
     </html>
   );
