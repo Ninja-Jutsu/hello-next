@@ -7,7 +7,7 @@ function RootLayout({ children }) {
     <html lang='en'>
       <body>
         {children}
-        <footer>CopyRight Anything</footer>
+        <footer style={{ color: "red" }}>CopyRight Anything</footer>
       </body>
     </html>
   );
